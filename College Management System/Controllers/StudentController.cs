@@ -17,10 +17,10 @@ namespace College_Management_System.Controllers
             _StudentsList = StudentsList;
         }
         //Gets all the students
-        public IActionResult index()
+        public IActionResult Index()
         {
 
-            var students = _StudentsList.attributes.ToList();
+            var students = _StudentsList.attributes.ToList() ;
             return View(students);
         }
 

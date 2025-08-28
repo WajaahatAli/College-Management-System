@@ -8,6 +8,10 @@ namespace College_Management_System.Models
     public class Attributes
     {
 
+        [Key]
+        public int Id { get; set; }
+
+
         [Required(ErrorMessage = "First Name is required")]
         public string FirstName { get; set; } = "";
 
@@ -19,7 +23,7 @@ namespace College_Management_System.Models
         [Required(ErrorMessage = "Age is required")]
         public int age { get; set; }
 
-        
+
         public string School { get; set; }
         [Required(ErrorMessage = "Gender is required")]
         public string gender { get; set; }
