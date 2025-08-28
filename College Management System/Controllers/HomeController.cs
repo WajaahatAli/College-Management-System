@@ -18,6 +18,12 @@ namespace College_Management_System.Controllers
             return View();
         }
 
+
+        public IActionResult create()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

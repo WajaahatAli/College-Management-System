@@ -14,7 +14,7 @@ namespace College_Management_System.DATA
 
         }
 
-        public DbSet<StudentsAttributes> attributes { get; set; }
+        public DbSet<Attributes> attributes { get; set; }
     }
 
 
